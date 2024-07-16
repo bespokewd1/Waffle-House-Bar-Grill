@@ -1,169 +1,237 @@
-/* PAGE-SPECIFIC STYLES FOR THE ABOUT PAGE */
 /*-- -------------------------- -->
-<---       Side By Side         -->
+<---       Meet The Team        -->
 <--- -------------------------- -*/
+
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-  #sbs {
-    padding: var(--sectionPadding);
+  #meet-team-859 {
+      padding: 7%;
+      overflow: hidden;
   }
-  #sbs .cs-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    max-width: 80rem;
-    width: 100%;
-    row-gap: 2.5rem;
+  #meet-team-859 .cs-container {
+      width: 100%;
+      max-width: 80rem;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* 48px - 64px */
+      gap: clamp(3rem, 6vw, 4rem);
   }
-  #sbs .cs-left {
-    position: relative;
-    height: 39.75em;
-    /* using ems so we can use font size to scale the whole section */
-    width: 39.4375em;
-    /* scaling the font size with the view width */
-    font-size: min(2.31vw, 0.7em);
+  #meet-team-859 .cs-content {
+      /* set text align to left if content needs to be left aligned */
+      text-align: center;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      /* centers content horizontally, set to flex-start to left align */
+      align-items: center;
   }
-  #sbs .cs-picture {
-    position: absolute;
-    display: block;
-    border-radius: 1.5em;
-    /* clips img tag corners */
-    overflow: hidden;
+  #meet-team-859 .cs-topper {
+      font-size: var(--topperFontSize);
+      line-height: 1.2em;
+      text-transform: uppercase;
+      text-align: inherit;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 0.25rem;
+      display: block;
   }
-  #sbs .cs-picture img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    /* makes image act like a background image */
-    object-fit: cover;
+  #meet-team-859 .cs-title {
+      font-size: var(--headerFontSize);
+      font-weight: 900;
+      line-height: 1.2em;
+      text-align: inherit;
+      max-width: 43.75rem;
+      margin: 0 0 1rem 0;
+      color: var(--headerColor);
+      position: relative;
   }
-  #sbs .cs-picture1 {
-    top: 0;
-    left: 0;
-    height: 36.3125em;
-    width: 32.625em;
+  #meet-team-859 .cs-title {
+      max-width: 20ch;
   }
-  #sbs .cs-picture2 {
-    bottom: 0;
-    right: 0;
-    /* 6px - 12px */
-    border: clamp(0.375em, 1.5vw, 0.75em) solid #fff;
-    background-color: #fff;
-    height: 25em;
-    width: 25.875em;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 40px;
+  #meet-team-859 .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: 0;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: var(--primary);
+      border-radius: 0.25rem;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
   }
-  #sbs .cs-right {
-    margin: auto;
-    max-width: 33.875rem;
+  #meet-team-859 .cs-button-solid:before {
+      content: "";
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #000;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 0.25rem;
+      transition: width 0.3s;
   }
-  #sbs .cs-topper {
-    margin-bottom: 0.25rem;
-    text-align: left;
+  #meet-team-859 .cs-button-solid:hover:before {
+      width: 100%;
   }
-  #sbs .cs-title {
-    max-width: 50rem;
-    text-align: left;
+  #meet-team-859 .cs-button-solid {
+      /* prevents flexbox from squishing it */
+      flex: none;
   }
-  #sbs .cs-text {
-    margin-bottom: 1rem;
-    max-width: 46.875rem;
-    color: var(--bodyTextColor);
-    text-align: left;
+  #meet-team-859 .cs-card-group {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* 16px - 20px */
+      gap: clamp(1rem, 2.3vw, 1.25rem);
+      position: relative;
   }
-  #sbs .cs-text:last-of-type {
-    margin-bottom: 2rem;
+  #meet-team-859 .cs-item {
+      list-style: none;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
   }
-  #sbs .cs-flex-group {
-    position: relative;
-    border-radius: 1rem;
-    background-color: #f7f7f7;
-    /* 16px - 32px */
-    padding: clamp(1rem, 3vw, 2rem);
+  #meet-team-859 .cs-item:hover .cs-picture:before,
+  #meet-team-859 .cs-item:hover .cs-picture:after {
+      opacity: 1;
   }
-  #sbs .cs-flex-p {
-    margin: 0 0 1rem;
-    /* 14px - 16px */
-    font-size: clamp(0.875rem, 1.5vw, 1rem);
-    line-height: 1.5em;
-    color: #353535;
+  #meet-team-859 .cs-item:hover .cs-picture img {
+      transform: scale(1.1);
   }
-  #sbs .cs-name {
-    display: block;
-    margin: 0 0 0.25rem;
-    text-transform: uppercase;
-    font-size: 1rem;
-    line-height: 1.2em;
-    font-weight: bold;
-    color: var(--headerColor);
+  #meet-team-859 .cs-item:hover .cs-info {
+      background-color: var(--primary);
   }
-  #sbs .cs-job {
-    display: block;
-    font-size: 0.875rem;
-    line-height: 1.5em;
-    color: #353535;
+  #meet-team-859 .cs-item:hover .cs-name,
+  #meet-team-859 .cs-item:hover .cs-job {
+      color: var(--bodyTextColorWhite);
   }
-  #sbs .cs-quote-icon {
-    position: absolute;
-    bottom: 0rem;
-    /* 16px - 32px */
-    right: clamp(1rem, 4vw, 2rem);
-    height: auto;
-    /* 60px - 136px */
-    width: clamp(3.75rem, 10vw, 8.5rem);
+  #meet-team-859 .cs-picture {
+      width: 100%;
+      height: auto;
+      margin: 0 0 0.5rem 0;
+      /* removed at tablet */
+      aspect-ratio: 0.80589681;
+      border-radius: 1rem;
+      /* clips the img corners */
+      /* clips img tag from overflowing it on hover */
+      overflow: hidden;
+      display: block;
+      position: relative;
+      z-index: 1;
   }
-  #sbs .cs-button-solid {
-    margin-top: 2rem;
+  #meet-team-859 .cs-picture img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* makes sure the top of the image is at the top of the parent, heads won't get cut off this way */
+      object-position: top;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: transform 0.7s;
+  }
+  #meet-team-859 .cs-info {
+      width: 100%;
+      padding: 1rem;
+      /* prevents padding and border from affecting height and width */
+      box-sizing: border-box;
+      background-color: #f7f7f7;
+      border-radius: 0.75rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: background-color 0.3s;
+  }
+  #meet-team-859 .cs-name {
+      font-size: 1.25rem;
+      line-height: 1.2em;
+      font-weight: 700;
+      margin: 0 0 0.25rem 0;
+      color: var(--headerColor);
+      display: block;
+      transition: color 0.3s;
+  }
+  #meet-team-859 .cs-job {
+      /* 14px - 16px */
+      font-size: clamp(0.875rem, 1.5vw, 1rem);
+      line-height: 1.5em;
+      margin-right: 0;
+      color: var(--bodyTextColor);
+      display: block;
+      transition: color 0.3s;
   }
 }
-/* Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
-  #sbs .cs-container {
-    flex-flow: row;
-    justify-content: space-between;
-    gap: 3.25rem;
+/* Tablet - 600px */
+@media only screen and (min-width: 37.5rem) {
+  #meet-team-859 .cs-content {
+      text-align: left;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
   }
-  #sbs .cs-left {
-    font-size: min(1.2vw, 1em);
-    flex: none;
+  #meet-team-859 .cs-title {
+      margin: 0;
   }
-  #sbs .cs-right {
-    margin: 0;
+  #meet-team-859 .cs-card-group {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+  }
+  #meet-team-859 .cs-item {
+      width: 48.3%;
+  }
+  #meet-team-859 .cs-picture {
+      height: 25.4375rem;
+      /* remove the aspect ratio so the height can be squished */
+      aspect-ratio: initial;
+  }
+}
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 56.25rem) {
+  #meet-team-859 .cs-card-group {
+      justify-content: center;
+      flex-wrap: nowrap;
+  }
+  #meet-team-859 .cs-item {
+      width: 100%;
   }
 }
 /* Dark Mode */
 @media only screen and (min-width: 0rem) {
-  body.dark-mode #sbs .cs-left:before,
-  body.dark-mode #sbs .cs-left:after {
-    background: var(--accent);
+  body.dark-mode #meet-team-859 .cs-topper {
+      color: var(--primaryLight);
   }
-  body.dark-mode #sbs .cs-picture2 {
-    /* 6px - 12px */
-    border: clamp(0.375em, 1.5vw, 0.75em) solid var(--dark);
-    background-color: var(--dark);
+  body.dark-mode #meet-team-859 .cs-title,
+  body.dark-mode #meet-team-859 .cs-name,
+  body.dark-mode #meet-team-859 .cs-job {
+      color: var(--bodyTextColorWhite);
   }
-  body.dark-mode #sbs .cs-topper {
-    color: var(--primaryLight);
+  body.dark-mode #meet-team-859 .cs-job {
+      opacity: 0.8;
   }
-  body.dark-mode #sbs .cs-title,
-  body.dark-mode #sbs .cs-text,
-  body.dark-mode #sbs .cs-h3,
-  body.dark-mode #sbs .cs-flex-p,
-  body.dark-mode #sbs .cs-name {
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbs .cs-flex-group {
-    background-color: var(--accent);
-  }
-  body.dark-mode #sbs .cs-job {
-    opacity: 0.8;
-    color: var(--bodyTextColorWhite);
-  }
-  body.dark-mode #sbs .cs-quote-icon {
-    opacity: 0.2;
+  body.dark-mode #meet-team-859 .cs-info {
+      background-color: rgba(0, 0, 0, 0.2);
   }
 }
+
+                              
