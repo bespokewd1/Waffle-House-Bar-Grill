@@ -5,7 +5,7 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #blog-1875 {
-    padding: var(--sectionPadding);
+    padding: 10%;
     overflow: hidden;
     position: relative;
   }
@@ -60,7 +60,7 @@
     width: 100%;
     /* 16px - 24px */
     padding: clamp(1rem, 2.5vw, 1.5rem) clamp(1rem, 2.5vw, 1.5rem) 2.5rem;
-    background-color: #FAF6F2;
+    background-color: #EB5B00;
     border-radius: 6.25rem;
     display: flex;
     flex-direction: column;
@@ -76,7 +76,7 @@
     transform: scale(1.1);
   }
   #blog-1875 .cs-item:hover .cs-h3 {
-    color: #8F5B34;
+    color: #0d0c0b;
   }
   #blog-1875 .cs-picture {
     width: 100%;
@@ -86,7 +86,7 @@
     /* clips img tag from overflowing it on hover */
     overflow: hidden;
     box-sizing: border-box;
-    border: 8px solid #DAB692;
+    border: 8px solid #f0f0f0;
     /* 100px - 220px */
     border-radius: clamp(11.25rem, 20vw, 13.75rem);
     display: block;
@@ -116,7 +116,7 @@
     line-height: 120%;
     width: 100%;
     margin: 0 0 0.5rem 0;
-    color: var(--headerColor);
+    color: #ffffff;
     transition: color 0.3s;
   }
   #blog-1875 .cs-details {
@@ -128,7 +128,7 @@
   #blog-1875 .cs-date {
     font-size: 1rem;
     line-height: 1.5em;
-    color: var(--bodyTextColor);
+    color: #ffffff;
     display: flex;
     gap: 0.5rem;
   }
@@ -143,7 +143,7 @@
     line-height: 1.5em;
     width: 100%;
     margin: 0;
-    color: var(--bodyTextColor);
+    color: #ffffff;
   }
   #blog-1875 .cs-background {
     width: 100%;

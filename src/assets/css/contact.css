@@ -4,11 +4,12 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #contact-1879 {
-    padding: var(--sectionPadding);
+    padding: 10%;
     background-color: #FAF6F2;
     overflow: hidden;
     position: relative;
     z-index: 1;
+    background-color: #FFB200;
   }
   #contact-1879 .cs-container {
     width: 100%;

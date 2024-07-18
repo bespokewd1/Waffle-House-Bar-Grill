@@ -113,8 +113,8 @@
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbs-1014 {
-    padding: var(--sectionPadding);
-    background-color: #f7f7f7;
+    padding: 10%;
+    background-color: #FFB200;
   }
   #sbs-1014 .cs-container {
     width: 100%;
@@ -462,7 +462,7 @@
       text-align: inherit;
       letter-spacing: 0.1em;
       font-weight: 700;
-      color: var(--primary);
+      color: #EB5B00;
       margin-bottom: 0.25rem;
       display: block;
   }
@@ -503,6 +503,7 @@
       margin: 0;
       padding: 0;
   }
+
   #why-choose-12 .cs-picture {
       /* 68px - 88px */
       width: clamp(4.25rem, 7vw, 5.5rem);
@@ -510,7 +511,7 @@
       margin: auto;
       margin-bottom: 2rem;
       border-radius: 50%;
-      background-color: var(--primary);
+      background-color: #EB5B00;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -548,7 +549,7 @@
       color: #fff;
       min-width: 9.375rem;
       padding: 0 1.5rem;
-      background-color: var(--primary);
+      background-color: #EB5B00;
       border-radius: 0.25rem;
       display: inline-block;
       position: relative;
