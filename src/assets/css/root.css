@@ -878,7 +878,7 @@
       position: relative;
   }
   #hero-407 .cs-color {
-      color: var(--primary);
+      color: #EB5B00;
       display: block;
   }
   #hero-407 .cs-text {
@@ -905,7 +905,7 @@
       color: #fff;
       min-width: 9.375rem;
       padding: 0 1.5rem;
-      background-color: var(--primary);
+      background-color: #EB5B00;
       border-radius: 0.25rem;
       display: inline-block;
       position: relative;
@@ -940,7 +940,7 @@
       color: var(--primary);
       min-width: 9.375rem;
       padding: 0 1.5rem;
-      background-color: transparent;
+      background-color: #000;
       border-radius: 0.25rem;
       display: inline-block;
       position: relative;
@@ -1005,10 +1005,10 @@
       align-items: center;
   }
   #hero-407 .cs-stat-box:nth-of-type(1) {
-      background-color: rgba(23, 99, 22, 0.96);
+      background-color: rgba(251, 252, 251, 0.756);
   }
   #hero-407 .cs-stat-box:nth-of-type(2) {
-      background-color: rgba(34, 149, 33, 0.96);
+      background-color: #eb5a00d9;
   }
   #hero-407 .cs-stat {
       /* 25px - 61px */
