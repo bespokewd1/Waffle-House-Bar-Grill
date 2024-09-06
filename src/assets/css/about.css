@@ -108,8 +108,8 @@
   }
 }
 /*-- -------------------------- -->
-<---       Side By Side         -->
-<--- -------------------------- -*/
+  <---       Side By Side         -->
+  <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #sbs-1014 {
@@ -192,7 +192,7 @@
   }
   #sbs-1014 .cs-image-group {
     /* scaling the font size with the view width */
-    font-size: min(2.31vw, .7em);
+    font-size: min(2.31vw, 0.7em);
     /* using ems so we can use font size to scale the whole section */
     width: 39.4375em;
     height: 39.75em;
@@ -276,8 +276,8 @@
   }
 }
 /*-- -------------------------- -->
-<---            CTA             -->
-<--- -------------------------- -*/
+  <---            CTA             -->
+  <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #cta-1014 {
@@ -425,160 +425,156 @@
     opacity: 0.1;
   }
 }
- 
-
 /*-- -------------------------- -->
-<---       Why Choose Us        -->
-<--- -------------------------- -*/
-
+  <---       Why Choose Us        -->
+  <--- -------------------------- -*/
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
   #why-choose-12 {
-      padding: var(--sectionPadding);
+    padding: var(--sectionPadding);
   }
   #why-choose-12 .cs-container {
-      width: 100%;
-      max-width: 80rem;
-      margin: auto;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /* 48px - 64px */
-      gap: clamp(3rem, 6vw, 4rem);
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
   }
   #why-choose-12 .cs-content {
-      /* set text align to left if content needs to be left aligned */
-      text-align: center;
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      /* centers content horizontally, set to flex-start to left align */
-      align-items: center;
+    /* set text align to left if content needs to be left aligned */
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* centers content horizontally, set to flex-start to left align */
+    align-items: center;
   }
   #why-choose-12 .cs-topper {
-      font-size: var(--topperFontSize);
-      line-height: 1.2em;
-      text-transform: uppercase;
-      text-align: inherit;
-      letter-spacing: 0.1em;
-      font-weight: 700;
-      color: #EB5B00;
-      margin-bottom: 0.25rem;
-      display: block;
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: inherit;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: #EB5B00;
+    margin-bottom: 0.25rem;
+    display: block;
   }
   #why-choose-12 .cs-title {
-      font-size: var(--headerFontSize);
-      font-weight: 900;
-      line-height: 1.2em;
-      text-align: inherit;
-      max-width: 43.75rem;
-      margin: 0 0 1rem 0;
-      color: var(--headerColor);
-      position: relative;
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: inherit;
+    max-width: 43.75rem;
+    margin: 0 0 1rem 0;
+    color: var(--headerColor);
+    position: relative;
   }
   #why-choose-12 .cs-text {
-      font-size: var(--bodyFontSize);
-      line-height: 1.5em;
-      text-align: inherit;
-      width: 100%;
-      max-width: 40.625rem;
-      margin: 0;
-      color: var(--bodyTextColor);
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: inherit;
+    width: 100%;
+    max-width: 40.625rem;
+    margin: 0;
+    color: var(--bodyTextColor);
   }
   #why-choose-12 .cs-card-group {
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      gap: 3.75rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.75rem;
   }
   #why-choose-12 .cs-item {
-      text-align: center;
-      list-style: none;
-      width: 100%;
-      max-width: 22.5rem;
-      margin: 0;
-      padding: 0;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    max-width: 22.5rem;
+    margin: 0;
+    padding: 0;
   }
-
   #why-choose-12 .cs-picture {
-      /* 68px - 88px */
-      width: clamp(4.25rem, 7vw, 5.5rem);
-      height: clamp(4.25rem, 7vw, 5.5rem);
-      margin: auto;
-      margin-bottom: 2rem;
-      border-radius: 50%;
-      background-color: #EB5B00;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+    /* 68px - 88px */
+    width: clamp(4.25rem, 7vw, 5.5rem);
+    height: clamp(4.25rem, 7vw, 5.5rem);
+    margin: auto;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-color: #EB5B00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #why-choose-12 .cs-picture img {
-      width: auto;
-      height: 2.625rem;
-      display: block;
+    width: auto;
+    height: 2.625rem;
+    display: block;
   }
   #why-choose-12 .cs-h3 {
-      font-size: 1.25rem;
-      line-height: 1.2em;
-      text-align: inherit;
-      font-weight: 700;
-      text-transform: uppercase;
-      margin: 0;
-      margin-bottom: 0.5rem;
-      color: var(--headerColor);
+    font-size: 1.25rem;
+    line-height: 1.2em;
+    text-align: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    color: var(--headerColor);
   }
   #why-choose-12 .cs-item-text {
-      font-size: 1rem;
-      text-align: inherit;
-      line-height: 1.5em;
-      margin: 0;
-      color: var(--bodyTextColor);
+    font-size: 1rem;
+    text-align: inherit;
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--bodyTextColor);
   }
   #why-choose-12 .cs-button-solid {
-      font-size: 1rem;
-      /* 46px - 56px */
-      line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-      text-decoration: none;
-      font-weight: 700;
-      text-align: center;
-      margin: 0;
-      color: #fff;
-      min-width: 9.375rem;
-      padding: 0 1.5rem;
-      background-color: #EB5B00;
-      border-radius: 0.25rem;
-      display: inline-block;
-      position: relative;
-      z-index: 1;
-      /* prevents padding from adding to the width */
-      box-sizing: border-box;
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: #EB5B00;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
   }
   #why-choose-12 .cs-button-solid:before {
-      content: "";
-      position: absolute;
-      height: 100%;
-      width: 0%;
-      background: #000;
-      opacity: 1;
-      top: 0;
-      left: 0;
-      z-index: -1;
-      border-radius: 0.25rem;
-      transition: width 0.3s;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width 0.3s;
   }
   #why-choose-12 .cs-button-solid:hover:before {
-      width: 100%;
+    width: 100%;
   }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
   #why-choose-12 .cs-card-group {
-      flex-direction: row;
-      justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 /* Dark Mode */
@@ -587,11 +583,9 @@
   body.dark-mode #why-choose-12 .cs-h3,
   body.dark-mode #why-choose-12 .cs-item-text,
   body.dark-mode #why-choose-12 .cs-text {
-      color: var(--bodyTextColorWhite);
+    color: var(--bodyTextColorWhite);
   }
   body.dark-mode #why-choose-12 .cs-picture {
-      background: var(--primary);
+    background: var(--primary);
   }
 }
-
-                              
