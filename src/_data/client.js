@@ -1,20 +1,20 @@
 module.exports = {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-779-4407",
-    "phoneFormatted": "(555) 779-4407",
+    "name": "Waffle House Bar and Grill",
+    "email": "WaffleHouseSherwood@gmail.com",
+    "phoneForTel": "780-200-0735",
+    "phoneFormatted": "",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "26 Strathmoor Drive, ",
+        "lineTwo": "Sherwood Park, AB, Canada, Alberta",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "mapLink": "https://maps.app.goo.gl/pZwPPJHHZWUTvMvr9"
     },
     "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/",
+        "facebook": "https://www.facebook.com/profile.php?id=61553190053636",
+        
     },
     //! Make sure you include the file protocol (e.g. https://) and that NO TRAILING SLASH is included
-    "domain": "https://www.example.com"
+    "domain": "wafflehousesherwood.ca"
 };
